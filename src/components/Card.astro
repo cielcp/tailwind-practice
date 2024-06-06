@@ -1,9 +1,10 @@
 ---
-const { title, url } = Astro.props;
+const { title, url, image, color } = Astro.props;
 ---
 
 <a href={url}>
     <div class="bg-white p-20 m-5 rounded-xl">
         <h1>{title}</h1>
+        <img src={image.url}>
     </div>
 </a>
