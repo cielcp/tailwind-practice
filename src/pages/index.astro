@@ -1,6 +1,8 @@
 ---
 // Component Imports
 import Button from '../components/Button.astro';
+import Navigation from '../components/Navigation.astro';
+import Hero from '../components/Hero.astro';
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -15,10 +17,13 @@ import Button from '../components/Button.astro';
 		<title>Astro + TailwindCSS</title>
 	</head>
 
-	<body>
+	<body class="bg-gradient-to-r from-orange-100 via-pink-100 to-green-200 bg-300% animate-gradient">
+		<Navigation/>
+		<Hero/>
+		
 		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
+			<Button>Click me</Button>
 		</div>
+
 	</body>
 </html>
