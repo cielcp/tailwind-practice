@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/WorkLayout.astro
-title: 'Wahoo Zones'
-description: 'In semester-long group project for HCI for Software Development @ the University of Virginia, I worked in a team of five to design a mobile app aimed at helping students and visitors find parking around grounds.'
+title: 'MySky'
+description: 'This was a project I completed during my semester abroad, for my UI design programming course.'
 site: 
     url: 'https://cs4640.cs.virginia.edu/ccp7gcp/campus-thrift/'
     screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
-    alt: 'A screenshot of the WahooZones homepage'
+    alt: 'A screenshot of the MySky homepage'
 image:
     url: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["astro", "coursework", "dev"]
 ---
 # Firstly
 
