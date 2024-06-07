@@ -16,8 +16,10 @@ const {pageTitle} = Astro.props;
 		<title>{pageTitle}</title>
 	</head>
 
-	<body class="bg-gradient-to-r from-orange-100 via-pink-100 to-green-200 bg-300% animate-gradient">
-		<Navigation/>
-        <slot />
+	<body class="bg-gradient-to-r from-orange-100 via-pink-100 to-green-200 bg-300% animate-gradient flex justify-center text-emerald-900">
+		<div class="md:max-w-7xl">
+			<Navigation/>
+			<slot />
+		</div>
 	</body>
 </html>

@@ -3,6 +3,4 @@ import Card from "./Card.astro";
 const allWorks = await Astro.glob('../pages/works/*.md');
 ---
 
-	<div class="grid place-items-center h-screen content-center">
         {allWorks.map((work) => <Card url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} color={work.frontmatter.color}/>)}
-	</div>

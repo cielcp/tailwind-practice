@@ -2,9 +2,10 @@
 const { title, url, image, color } = Astro.props;
 ---
 
-<a href={url}>
-    <div class="bg-white p-20 m-5 rounded-xl">
-        <h1>{title}</h1>
-        <img src={image.url}>
+<a href={url} class="">
+    <div class="bg-white p-8 pt-20 md:p-20 m-5 rounded-xl h-96 overflow-hidden group drop-shadow-lg">
+        <h1 class="text-4xl pb-10">{title}</h1>
+        <img class="rounded-xl border transition transform group-hover:-translate-y-3" src={image.url}>
     </div>
 </a>
+
