@@ -9,6 +9,7 @@ site:
 image:
     url: '../public/images/my-sky.jpg'
     alt: 'The full Astro logo.'
+color: 'green-100'
 tags: ["astro", "coursework", "dev"]
 ---
 # Firstly

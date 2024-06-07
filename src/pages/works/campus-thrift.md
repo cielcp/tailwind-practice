@@ -9,7 +9,7 @@ site:
 image:
     url: '../public/images/campus-thrift.jpg'
     alt: 'The full Astro logo.'
-color: "green"
+color: 'green-200'
 tags: ["astro", "coursework", "dev"]
 ---
 # Firstly
