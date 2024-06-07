@@ -7,7 +7,7 @@ site:
     screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'A screenshot of the MySky homepage'
 image:
-    url: '../public/images/my-sky.jpg'
+    url: '../images/my-sky.jpg'
     alt: 'The full Astro logo.'
 color: 'green-100'
 tags: ["astro", "coursework", "dev"]

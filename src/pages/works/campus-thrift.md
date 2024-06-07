@@ -7,7 +7,7 @@ site:
     screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'A screenshot of the Campus Thrift homepage'
 image:
-    url: '../public/images/campus-thrift.jpg'
+    url: '../images/campus-thrift.jpg'
     alt: 'The full Astro logo.'
 color: 'green-200'
 tags: ["astro", "coursework", "dev"]
