@@ -2,7 +2,7 @@
 layout: ../../layouts/WorkLayout.astro
 title: 'MySky'
 description: 'This was a project I completed during my semester abroad, for my UI design programming course.'
-site: 
+site:
     url: 'https://cs4640.cs.virginia.edu/ccp7gcp/campus-thrift/'
     screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'A screenshot of the MySky homepage'
@@ -10,8 +10,9 @@ image:
     url: '/images/my-sky.jpg'
     alt: 'Screenshot of My Sky website'
 color: 'green-100'
-tags: ["astro", "coursework", "dev"]
+tags: ['astro', 'coursework', 'dev']
 ---
+
 # Firstly
 
 Published on: 2022-07-01

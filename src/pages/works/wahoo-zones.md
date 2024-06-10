@@ -2,15 +2,16 @@
 layout: ../../layouts/WorkLayout.astro
 title: 'Wahoo Zones'
 description: 'In semester-long group project for HCI for Software Development @ the University of Virginia, I worked in a team of five to design a mobile app aimed at helping students and visitors find parking around grounds.'
-site: 
+site:
     url: 'https://cs4640.cs.virginia.edu/ccp7gcp/campus-thrift/'
     screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'A screenshot of the WahooZones homepage'
 image:
     url: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "coursework", "archive"]
+tags: ['astro', 'coursework', 'archive']
 ---
+
 # Firstly
 
 Published on: 2022-07-01
