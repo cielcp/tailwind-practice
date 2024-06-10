@@ -1,6 +1,15 @@
 ---
-import Card from "./Card.astro";
-const allWorks = await Astro.glob('../pages/works/*.md');
+import Card from './Card.astro'
+const allWorks = await Astro.glob('../pages/works/*.md')
 ---
 
-        {allWorks.map((work) => <Card url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} color={work.frontmatter.color}/>)}
+{
+    allWorks.map((work) => (
+        <Card
+            url={work.url}
+            title={work.frontmatter.title}
+            image={work.frontmatter.image}
+            color={work.frontmatter.color}
+        />
+    ))
+}

@@ -1,0 +1,11 @@
+{
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "semi": false,
+    "trailingComma": "all",
+
+
+    
+    "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"]
+  }
