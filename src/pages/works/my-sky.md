@@ -3,13 +3,13 @@ layout: ../../layouts/WorkLayout.astro
 title: 'MySky'
 description: 'This was a project I completed during my semester abroad, for my UI design programming course.'
 site:
-    url: 'https://cs4640.cs.virginia.edu/ccp7gcp/campus-thrift/'
-    screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
-    alt: 'A screenshot of the MySky homepage'
+  url: 'https://cs4640.cs.virginia.edu/ccp7gcp/campus-thrift/'
+  screenshot: 'https://docs.astro.build/assets/full-logo-dark.png'
+  alt: 'A screenshot of the MySky homepage'
 image:
-    url: '/images/my-sky.jpg'
-    alt: 'Screenshot of My Sky website'
-color: 'green-100'
+  url: '/images/my-sky.jpg'
+  alt: 'Screenshot of My Sky website'
+color: 'bg-[#d6e6d3]'
 tags: ['astro', 'coursework', 'dev']
 ---
 

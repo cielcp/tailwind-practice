@@ -2,12 +2,11 @@
 const minibio = "I'm passionate about something something something!"
 ---
 
-<div class="m-5">
-    <h1 class="mb-8 text-6xl font-bold text-emerald-900 md:text-8xl">
-        Hi, I'm Ciel.
-    </h1>
-    <h1 class="mb-10 text-6xl font-bold text-emerald-900 md:text-8xl">
-        A Creative Developer.
-    </h1>
-    <p class="mb-10 font-bold text-emerald-900">{minibio}</p>
-</div>
+<section class="flex flex-col gap-10" aria-label="Hero">
+  <h1
+    class="flex flex-col items-center gap-8 text-center text-6xl font-bold text-emerald-900 md:text-8xl">
+    <span>Hi, I'm Ciel.</span>
+    <span>A Creative Developer.</span>
+  </h1>
+  <p class="font-bold text-emerald-900">{minibio}</p>
+</section>
