@@ -8,19 +8,19 @@ const { pageTitle } = Astro.props
 ---
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="generator" content={Astro.generator} />
-        <title>{pageTitle}</title>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
 
-    <body
-        class="flex animate-gradient justify-center bg-gradient-to-r from-orange-100 via-pink-100 to-green-200 bg-300% text-emerald-900">
-        <div class="md:max-w-7xl">
-            <Navigation />
-            <slot />
-        </div>
-    </body>
+  <body
+    class="flex animate-gradient justify-center bg-gradient-to-r from-orange-100 via-pink-100 to-green-200 bg-300% text-emerald-900">
+    <div class="max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-5xl xl:max-w-6xl">
+      <Navigation />
+      <slot />
+    </div>
+  </body>
 </html>

@@ -1,17 +1,17 @@
 ---
 const { title, url, image, color } = Astro.props
-// why is this not working????
-const cardStyle = `bg-${color} p-8 pt-20 md:p-20 m-5 rounded-xl h-96 overflow-hidden group drop-shadow-lg`
 ---
 
 <a href={url}>
-    <div
-        class={`bg-white p-8 pt-20 md:p-20 m-5 rounded-xl h-96 overflow-hidden group drop-shadow-lg`}>
-        <!--{color}-->
-        <h1 class="pb-10 text-4xl">{title}</h1>
-        <img
-            class="transform rounded-xl border transition group-hover:-translate-y-3"
-            src={image.url}
-        />
-    </div>
+  <div
+    class:list={[
+      'group h-96 overflow-hidden rounded-xl p-8 pt-20 font-semibold text-zinc-700 drop-shadow-lg md:p-20',
+      color,
+    ]}>
+    <h1 class="pb-16 text-4xl">{title}</h1>
+    <img
+      class="transform rounded-xl border transition group-hover:-translate-y-3"
+      src={image.url}
+    />
+  </div>
 </a>
